@@ -58,7 +58,7 @@ public class App
     }
 
 
-    public static void main( String[] args ) throws IOException {
+    public static void main( String[] args ) {
         System.out.println("Hello World!");
         buildList(cars);
 
