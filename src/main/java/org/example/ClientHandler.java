@@ -70,7 +70,7 @@ public class ClientHandler {
                     out.println(result);
                 }
 
-                out.println("Working on...");
+                out.println("Please, write another command...");
             }
         } catch (IOException e) {
             e.printStackTrace();
