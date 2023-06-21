@@ -22,11 +22,11 @@ public class App
         cars.add(new Car(123,"bmw",3594.9, 2));
         cars.add(new Car(3634,"audi",38346.9, 1));
         cars.add(new Car(135,"ferrari",130000,4));
-        System.out.println(cars);
+        /*System.out.println(cars);
         for (Car c: cars
              ) {
             System.out.println(c.getId()  + " ; " + c.getBrand() + " ; " + c.getPrice());
-        }
+        }*/
     }
 
     static Car mostExpensive (ArrayList<Car> cars) {
